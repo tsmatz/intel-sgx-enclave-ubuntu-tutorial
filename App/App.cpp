@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <assert.h>
 
-# include <unistd.h>
-# include <pwd.h>
 # define ENCLAVE_FILENAME "enclave.signed.so"
 
 #include "sgx_urts.h"

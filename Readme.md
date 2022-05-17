@@ -4,10 +4,10 @@ This application is a minimum example for running secured application with Intel
 
 ## Intel SGX Drivers and SDK Installation
 
-Before building this application, please set the required software in Intel SGX platform.
+Before building this application, please setup the required software in Intel SGX platform.
 
 See installation guide for Intel SGX software and then install drivers, runtime, and SDKs.<br>
-Here I installed v2.16 on Ubuntu Server 20.04 LTS (Standard DC2s v3) in Microsoft Azure.
+Here I installed Intel SGX software v2.16 on Ubuntu Server 20.04 LTS (Standard DC2s v3) in Microsoft Azure.
 
 ```
 #
@@ -57,7 +57,7 @@ sudo apt-get install libsgx-enclave-common-dev libsgx-dcap-ql-dev libsgx-dcap-de
 
 ## Build and run this application
 
-Now you can build and run this application.
+Now you can build and run this application as follows.
 
 ```
 # clone this repo
